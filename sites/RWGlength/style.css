@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+Body{
+  background-color: transparent;
+  background-image: 
+    linear-gradient(to right, #4e3da4,#a870c2,#d071a9,#a6597e,#d071a9,#a870c2,#4e3da4); 
+  animation: rainbow-animation 45s linear infinite;
+  font-family: 'Pixelify Sans', cursive;
+  text-align:center;
+  }
+
+  @keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
+}
+#output {
+  font-size: 35px;
+  color: whitesmoke;
+}
+button{
+  background-color: tomato;
+  color: white;
+  cursor: pointer;
+  font-size: 50px;
+  transition: all .25s;
+}
+button:hover{
+  background-color: #ae2f19;
+  color: #a49d9d;
+  cursor: pointer;
+  font-size: 50px;
+  transform: scale(1.1);
+}
+table, tr, td, th {
+    border: 5px solid whitesmoke;
+    border-collapse: collapse;
+   
+}

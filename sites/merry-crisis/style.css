@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  
+  text-align: center;
+  background-color: black;
+}
+
+H1{
+  font-family: 'Griffy', serif;
+  color: #3a438d;
+  font-size: 50px;
+}
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+h1.wiggle {
+  display: inline-block;
+  animation: wiggle 1.5s infinite;
+}
+
+@keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+p.tilt-shaking{
+  font-family: 'Griffy', serif;
+  color: #62699d;
+  background-color:#0e133f;
+  text-align: center;
+  animation: tilt-shaking 3s infinite;
+  font-size: 20px;
+  display: inline-table;
+  padding: 2px;
+}
+
+p.music{
+  
+  font-family: 'Griffy', serif;
+  color: #62699d;
+  background-color:#0e133f;
+  text-align: center;
+  font-size: 25px;
+  display:inline-block;
+  padding: 2px;
+  cursor: pointer;
+}

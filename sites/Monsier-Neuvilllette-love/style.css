@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #b7cae8;
+  text-align: center;
+}
+h1{
+font-family: monospace;
+color: #496ec4;
+font-size:30px;
+}
+button{
+margin: auto;
+font-size: 25px;
+background-color: #4a758c;
+color: #ffffff;
+}
+button:hover{
+margin: auto;
+font-size: 25px;
+background-color: #c30404;
+color: #000000;
+}
+.jumpscare{
+margin: auto;
+margin-top: px;
+font-size: 25px;
+background-color: #794d9d;
+color: #d3cfcf;
+}
+.jumpscare:hover{
+margin: auto;
+margin-top: 5px;
+font-size: 25px;
+background-color: #22152d;
+color: #ffe747;
+}
+.separation{
+font-family: monospace;
+color: #6c0a99;
+font-size:30px;
+background-color: #767eea;
+}
+p{
+  font-family: monospace;
+  color: #496ec4;
+  font-size:30px;
+}
+p:hover{
+  font-family: monospace;
+  color: #1f459e;
+  font-size:30px;
+}
