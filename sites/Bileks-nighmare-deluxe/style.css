@@ -35,7 +35,7 @@ h1:hover{
   color: #212121;
   margin: 2%;
   opacity: 85%;
-  cursor: pointer
+  cursor: pointer;
    background-image: 
      linear-gradient(to right, #6a0101,#b37400,#b7b701,#004d00,#000075,#180029,#6b2e6b, #6a0101); 
    animation: rainbow-animation 35s linear infinite;

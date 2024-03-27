@@ -9,6 +9,25 @@ def index():
 
 @app.route("/calculator", methods=['GET', 'POST'])
 def calculator():
+    equals =  0
+    match(request.method):
+        case 'GET':
+            if request.args.get('1stInput') != None and request.args.get("2ndInput") != None:
+                z = float(request.args.get('1stInput'))
+                y = float(request.args.get("2ndInput"))
+                match(request.args.get("operation")):
+                    case "-":  
+                        equals = z - y
+                    case "*":
+                        equals = z * y
+                    case "/": 
+                        if y == 0 :
+                            equals = None
+                        else:
+                            equals = z / y 
+                    case _:
+                        equals = z + y 
+                        
     return render_template("calculator.html", title = "Calculator Theory")
 
 @app.route("/:3", methods=['GET', 'POST'])

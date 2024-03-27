@@ -8,7 +8,7 @@
 <body>
     <h1>Another bíleks nightmare</h1>
     <p>{{ title }}</p>
-<form method="POST">
+<form action="/calculator" method="GET">
 
     <label for="1stInput">First number input:</label>
     <input type="number" name="1stInput" id="1stInput">
@@ -18,16 +18,14 @@
     <br>
     <label for="operation">Operations:</label>
     <select name="operation" id="operation">
-        <option value="+"></option>
-        <option value="-"></option>
-        <option value="*"></option>
-        <option value="/"></option>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
     </select>
-
-
-
-
-
+    <br>
+    <label for="submit">give me anwsah</label>
+    <input type="submit" value="submit" id="submit"/>
 </form>
     
 

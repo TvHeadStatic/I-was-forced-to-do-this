@@ -1,3 +1,39 @@
 body{
     color: #460b0b;
 } 
+h1{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    background-color:transparent;
+    color: #212121;
+    margin: 2%;
+    opacity: 75%;
+     background-image: 
+     linear-gradient(to right, #ff3333,#f8c463,#f9f96c,#68f868,#7070ff,#b36be6,#fdc4fd, #ff3333); 
+     animation: rainbow-animation 35s linear infinite;
+     }
+  
+     @keyframes rainbow-animation {
+       to {
+           background-position: 450vh;
+       }
+    
+  }
+  h1:hover{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    background-color:transparent;
+    color: #212121;
+    margin: 2%;
+    opacity: 85%;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #6a0101,#b37400,#b7b701,#004d00,#000075,#180029,#6b2e6b, #6a0101); 
+     animation: rainbow-animation 35s linear infinite;
+     }
+  
+     @keyframes rainbow-animation {
+       to {
+           background-position: 450vh;
+       }
+  
+  }
