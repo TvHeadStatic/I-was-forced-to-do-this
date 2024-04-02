@@ -27,6 +27,7 @@ def calculator():
                             equals = z / y 
                     case _:
                         equals = z + y 
+    return render_template("calculator.html", title = "flask", uwu = equals)
 
 
 @app.route("/:3", methods=['GET', 'POST'])
