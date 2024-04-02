@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template("index.html", title = "flask")
+    return render_template("index.html", title = "Flesk")
 
 
 @app.route("/calculator", methods=['GET', 'POST'])
@@ -27,7 +27,7 @@ def calculator():
                             equals = z / y 
                     case _:
                         equals = z + y 
-    return render_template("calculator.html", title = "flask", uwu = equals)
+    return render_template("calculator.html", title = "Kalkůlátor", uwu = equals)
 
 
 @app.route("/:3", methods=['GET', 'POST'])

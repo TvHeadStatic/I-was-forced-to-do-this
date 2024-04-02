@@ -1,11 +1,11 @@
 body{
-    color: #460b0b;
+    background-color: #d16262;
 } 
 h1{
     text-align: center;
     font-family: 'Libre Baskerville', serif;
     background-color:transparent;
-    color: #212121;
+    color: #9531d8;
     margin: 2%;
     opacity: 75%;
      background-image: 
@@ -23,7 +23,7 @@ h1{
     text-align: center;
     font-family: 'Libre Baskerville', serif;
     background-color:transparent;
-    color: #212121;
+    color: #651b96;
     margin: 2%;
     opacity: 85%;
     cursor: pointer;
