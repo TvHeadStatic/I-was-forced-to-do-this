@@ -11,7 +11,7 @@ for i in range(len(arr)):
             mEth.append (ord(arr[i][j]))
     else:
         mEth.append (arr[i])
-print(sum(mEth))
+print(f"don't ask how but we added all of it: {sum(mEth)}")
 
 mEth.sort()
 print(f"Lowest and highest value in ze arrah: {mEth[0]} {mEth[len(mEth)-1]}")
@@ -30,3 +30,4 @@ arr[0] = 'ඞ'
 arr[int(len(arr)/2)-1] = 'ඞ'
 arr[int(len(arr)-1)] = 'ඞ'
 
+print(f"Replaced 3 values for something more fun :3 {arr}")
