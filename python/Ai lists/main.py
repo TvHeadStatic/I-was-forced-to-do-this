@@ -12,8 +12,7 @@ for i in range(len(arr)):
 print(sum(mEth))
 
 mEth.sort()
-print(f"")
-
+print(f"{mEth[0]} {mEth[len(mEth)-1]}")
 
 
 
